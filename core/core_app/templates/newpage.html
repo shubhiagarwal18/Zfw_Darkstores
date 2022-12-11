@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Custom Styles starts here  -->
+<style>
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: Sans-serif;
+}
+
+body{
+  background-color: #eee;
+
+}
+nav{
+  margin: 20px;
+  position: relative;
+}
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.display-picture{
+  margin-left: auto;
+}
+.display-picture img{
+  width: 50px;
+  border-radius: 50%;
+  border:2px solid #fff;
+}
+.display-picture img:hover{
+border:2px solid #E78341;
+}
+.card{
+  transition: 0.5s ease;
+}
+
+.card ul{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background: #3f4d67;
+  position: absolute;
+  top: 2rem;
+  right:0rem;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+}
+.card ul li{
+ 
+  padding: 5px 0;
+  color: #FFF;
+  font-size: 14px;
+}
+.hidden{
+  display: none;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+
+</style>
+<!-- Custom Styles Ends here  -->
+
+<title>Document</title>
+</head>
+<body>
+    <div><h1>Welcome!!</h1></div>
+<!--Navigation Bar Starts Here-->
+    <nav>
+        <ul>
+          <a href="#"><li><img src="" alt=""></li>Welcome</a>
+          <a href="#" class="display-picture"><i class="fa fa-cog" aria-hidden="true" style="font-size:20px;"></i></a>
+          </ul>
+          <div class="card hidden"><!--ADD TOGGLE HIDDEN CLASS ATTRIBUTE HERE-->
+            <ul><!--MENU-->
+              <!-- <li><a href="#">Profile</li></a>
+              <li><a href="#">Account</li></a>
+              <li><a href="#">Settings</li></a> -->
+              <li><a href="{% url 'logout' %}" style="color: #FFF;">Log Out</li></a>
+          </div>
+      </nav><!--Navigation Bar Starts Here-->
+
+<!-- custom Scripts Starts here  -->
+<script>
+let card = document.querySelector(".card"); //declearing profile card element
+let displayPicture = document.querySelector(".display-picture"); //declearing profile picture
+
+displayPicture.addEventListener("click", function() { //on click on profile picture toggle hidden class from css
+card.classList.toggle("hidden")})
+</script>
+<!-- custom Scripts Ends here  -->
+</body>
+</html>
