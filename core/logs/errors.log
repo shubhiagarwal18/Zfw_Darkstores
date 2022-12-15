@@ -1,0 +1,105 @@
+WARNING 2022-12-13 16:31:00,799 django.server Thread-3 2346756 basehttp basehttp.py 161 django.server log_message 2350664 "GET /static/js/keyboard/Keyboard.js HTTP/1.1" 404 1828
+WARNING 2022-12-13 16:31:00,837 django.request Thread-2 2340688 log log.py 230 django.request log_response 2350664 Not Found: /js/main.js
+WARNING 2022-12-13 16:31:00,882 django.request Thread-1 2351684 log log.py 230 django.request log_response 2350664 Not Found: /img/log.svg
+WARNING 2022-12-13 16:31:00,909 django.server Thread-2 2340688 basehttp basehttp.py 161 django.server log_message 2350664 "GET /js/main.js HTTP/1.1" 404 2712
+WARNING 2022-12-13 16:31:00,916 django.server Thread-1 2351684 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/log.svg HTTP/1.1" 404 2715
+WARNING 2022-12-13 16:31:00,999 django.request Thread-6 2356692 log log.py 230 django.request log_response 2350664 Not Found: /img/register.svg
+WARNING 2022-12-13 16:31:01,014 django.server Thread-6 2356692 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/register.svg HTTP/1.1" 404 2730
+WARNING 2022-12-13 16:33:41,982 django.request Thread-7 2357092 log log.py 230 django.request log_response 2350664 Not Found: /img/log.svg
+WARNING 2022-12-13 16:33:41,991 django.server Thread-7 2357092 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/log.svg HTTP/1.1" 404 2715
+WARNING 2022-12-13 16:33:46,504 django.request Thread-7 2357092 log log.py 230 django.request log_response 2350664 Not Found: /img/log.svg
+WARNING 2022-12-13 16:33:46,511 django.server Thread-7 2357092 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/log.svg HTTP/1.1" 404 2715
+WARNING 2022-12-13 16:37:19,392 django.request Thread-1 2347836 log log.py 230 django.request log_response 1464708 Not Found: /img/log.svg
+WARNING 2022-12-13 16:37:19,397 django.server Thread-1 2347836 basehttp basehttp.py 161 django.server log_message 1464708 "GET /img/log.svg HTTP/1.1" 404 2715
+WARNING 2022-12-13 16:44:03,214 django.request Thread-1 2356696 log log.py 230 django.request log_response 2347204 Not Found: /img/log.svg
+WARNING 2022-12-13 16:44:03,221 django.server Thread-1 2356696 basehttp basehttp.py 161 django.server log_message 2347204 "GET /img/log.svg HTTP/1.1" 404 2715
+WARNING 2022-12-13 16:59:11,434 django.request Thread-10 2360464 log log.py 230 django.request log_response 2352348 Not Found: /img/log.svg
+WARNING 2022-12-13 16:59:11,441 django.server Thread-10 2360464 basehttp basehttp.py 161 django.server log_message 2352348 "GET /img/log.svg HTTP/1.1" 404 2715
+WARNING 2022-12-14 12:05:05,868 django.request Thread-18 2505616 log log.py 230 django.request log_response 2505300 Not Found: /img/log.svg
+WARNING 2022-12-14 12:05:05,875 django.server Thread-18 2505616 basehttp basehttp.py 161 django.server log_message 2505300 "GET /img/log.svg HTTP/1.1" 404 2715
+ERROR 2022-12-15 12:34:50,302 django.request Thread-1 1291760 log log.py 230 django.request log_response 859532 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 40, in home
+    msg = content_subtype('html')
+NameError: name 'content_subtype' is not defined
+ERROR 2022-12-15 12:34:50,313 django.server Thread-1 1291760 basehttp basehttp.py 161 django.server log_message 859532 "GET / HTTP/1.1" 500 72083
+ERROR 2022-12-15 15:50:39,466 django.request Thread-1 674604 log log.py 230 django.request log_response 647396 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 51, in home
+    template = get_template("testapp/email.html")
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp/email.html
+ERROR 2022-12-15 15:50:39,479 django.server Thread-1 674604 basehttp basehttp.py 161 django.server log_message 647396 "GET / HTTP/1.1" 500 77105
+ERROR 2022-12-15 15:51:15,966 django.request Thread-1 1034436 log log.py 230 django.request log_response 2297116 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 56, in home
+    context_data["image_url"] = equest.build_absolute_uri(reverse("image_load"))
+NameError: name 'equest' is not defined
+ERROR 2022-12-15 15:51:15,975 django.server Thread-1 1034436 basehttp basehttp.py 161 django.server log_message 2297116 "GET / HTTP/1.1" 500 71213
+ERROR 2022-12-15 15:52:05,837 django.request Thread-2 729132 log log.py 230 django.request log_response 1026772 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 56, in home
+    context_data["image_url"] = request.build_absolute_uri(reverse("image_load"))
+NameError: name 'reverse' is not defined
+ERROR 2022-12-15 15:52:05,845 django.server Thread-2 729132 basehttp basehttp.py 161 django.server log_message 1026772 "GET / HTTP/1.1" 500 71219
+ERROR 2022-12-15 15:53:06,569 django.request Thread-1 2059664 log log.py 230 django.request log_response 56036 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 60, in home
+    plain_text = strip_tags(html_text)
+NameError: name 'strip_tags' is not defined
+ERROR 2022-12-15 15:53:06,577 django.server Thread-1 2059664 basehttp basehttp.py 161 django.server log_message 56036 "GET / HTTP/1.1" 500 72341
+ERROR 2022-12-15 16:14:45,695 django.request Thread-1 2468848 log log.py 230 django.request log_response 347480 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 60, in home
+    msg = EmailMessage(subject, html_content, from_email, to=['shubhimay18@gmail.com'])
+NameError: name 'html_content' is not defined
+ERROR 2022-12-15 16:14:45,707 django.server Thread-1 2468848 basehttp basehttp.py 161 django.server log_message 347480 "GET / HTTP/1.1" 500 72910
+ERROR 2022-12-15 16:23:47,326 django.request Thread-1 1652960 log log.py 230 django.request log_response 387948 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 63, in home
+    msg.send()
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 109, in send_messages
+    sent = self._send(message)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 123, in _send
+    message = email_message.message()
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 246, in message
+    msg = SafeMIMEText(self.body, self.content_subtype, encoding)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 159, in __init__
+    MIMEText.__init__(self, _text, _subtype=_subtype, _charset=_charset)
+  File "c:\users\sagarwal\appdata\local\programs\python\python37\lib\email\mime\text.py", line 42, in __init__
+    self.set_payload(_text, _charset)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 169, in set_payload
+    for line in payload.splitlines()
+AttributeError: 'Template' object has no attribute 'splitlines'
+ERROR 2022-12-15 16:23:47,344 django.server Thread-1 1652960 basehttp basehttp.py 161 django.server log_message 387948 "GET / HTTP/1.1" 500 100972

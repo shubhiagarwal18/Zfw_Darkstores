@@ -25,5 +25,6 @@ urlpatterns = [
     path('signin/', views.signin, name='signin'),
     path('signout/', views.signout, name='signout'),
     path("logout/", LogoutView.as_view(), name="logout"),
+    path(r'^image_load/$', views.image_load, name='image_load'),
 
 ]

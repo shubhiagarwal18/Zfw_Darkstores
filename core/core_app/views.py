@@ -6,17 +6,65 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from core_app.send_mail import mail
 from django.contrib.auth import get_user_model
+from django.contrib import admin
 import time
 from datetime import datetime
 from threading import Timer
-
-# Create your views here.
-
+import logging
+from core.settings import EMAIL_HOST_USER
+from django.core.mail import send_mail, EmailMultiAlternatives, EmailMessage
+from django.template.loader import get_template
 import schedule
 import time
+from django.http import HttpResponse
+from PIL import Image
+from django.urls import reverse
+from django.utils.html import strip_tags
 
+logger = logging.getLogger('django')
 
-def home(request): 
+def image_load(request):
+    print("\nImage Loaded\n")
+    red = Image.new('RGB', (1, 1))
+    response = HttpResponse(content_type="image/png")
+    red.save(response, "PNG")
+    return response
+
+def home(request):
+    logger.info("Logger information")
+    logger.critical("Logger critical")
+    logger.warning("Logger warning")
+    logging.debug('This is a debug message')
+    logging.info('This is an info message')
+    logging.warning('This is a warning message')
+    logging.error('This is an error message')
+    logging.critical('This is a critical message')
+
+    subject = "Testing Purpose"
+    from_email = "anubhav.april01@gmail.com"
+    # html_content = get_template('email.html').render({'name': 'name'})
+    # msg = EmailMessage(subject, html_content, from_email, to=['shubhimay18@gmail.com'])
+    # msg.content_subtype ='html'
+    # msg.send()
+    # print("msg send")
+
+    # using template to generate the email content
+    template = get_template("email.html")
+    context_data = dict()
+
+    # pass the variable image_url to template
+    # image_load is the URL name. see below
+    context_data["image_url"] = request.build_absolute_uri(reverse("image_load"))
+    html_text = get_template('email.html').render(context_data)
+    print(context_data)
+    print(html_text)
+    plain_text = strip_tags(html_text)
+    print(plain_text)
+    msg = EmailMessage(subject, html_text, from_email, to=['shubhimay18@gmail.com'])
+    msg.content_subtype ='html'
+    msg.send()
+    print("mail sent with image")
+
     return render(request, 'index.html')
 
 def register(request):
@@ -81,16 +129,16 @@ def job():
     print("I'm working...")
     sending_mail_to_all_users()
 
-schedule.every(10).minutes.do(job)
-schedule.every().hour.do(job)
-schedule.every().day.at("09:00").do(job)
-schedule.every().monday.do(job)
-schedule.every().wednesday.at("13:15").do(job)
-schedule.every().minute.at(":17").do(job)
+#schedule.every(2).minutes.do(job)
+# schedule.every().hour.do(job)
+schedule.every().day.at("12:46").do(job)
+# schedule.every().monday.do(job)
+# schedule.every().wednesday.at("13:15").do(job)
+# schedule.every().minute.at(":17").do(job)
 
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
 
 
 # x=datetime.today()

@@ -1,0 +1,439 @@
+INFO 2022-12-13 16:30:46,810 django.utils.autoreload MainThread 2344740 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2350664 Watching for file changes with StatReloader
+INFO 2022-12-13 16:31:00,382 django Thread-1 2351684 views views.py 23 django home 2350664 Logger information
+CRITICAL 2022-12-13 16:31:00,390 django Thread-1 2351684 views views.py 24 django home 2350664 Logger critical
+WARNING 2022-12-13 16:31:00,393 django Thread-1 2351684 views views.py 25 django home 2350664 Logger warning
+INFO 2022-12-13 16:31:00,478 django.server Thread-1 2351684 basehttp basehttp.py 161 django.server log_message 2350664 "GET / HTTP/1.1" 200 4330
+INFO 2022-12-13 16:31:00,542 django.server Thread-2 2340688 basehttp basehttp.py 161 django.server log_message 2350664 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:31:00,665 django.server Thread-3 2346756 basehttp basehttp.py 161 django.server log_message 2350664 "GET /static/js/scripts.js HTTP/1.1" 304 0
+WARNING 2022-12-13 16:31:00,799 django.server Thread-3 2346756 basehttp basehttp.py 161 django.server log_message 2350664 "GET /static/js/keyboard/Keyboard.js HTTP/1.1" 404 1828
+WARNING 2022-12-13 16:31:00,837 django.request Thread-2 2340688 log log.py 230 django.request log_response 2350664 Not Found: /js/main.js
+WARNING 2022-12-13 16:31:00,882 django.request Thread-1 2351684 log log.py 230 django.request log_response 2350664 Not Found: /img/log.svg
+WARNING 2022-12-13 16:31:00,909 django.server Thread-2 2340688 basehttp basehttp.py 161 django.server log_message 2350664 "GET /js/main.js HTTP/1.1" 404 2712
+WARNING 2022-12-13 16:31:00,916 django.server Thread-1 2351684 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/log.svg HTTP/1.1" 404 2715
+WARNING 2022-12-13 16:31:00,999 django.request Thread-6 2356692 log log.py 230 django.request log_response 2350664 Not Found: /img/register.svg
+WARNING 2022-12-13 16:31:01,014 django.server Thread-6 2356692 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/register.svg HTTP/1.1" 404 2730
+INFO 2022-12-13 16:33:41,890 django Thread-7 2357092 views views.py 23 django home 2350664 Logger information
+CRITICAL 2022-12-13 16:33:41,891 django Thread-7 2357092 views views.py 24 django home 2350664 Logger critical
+WARNING 2022-12-13 16:33:41,899 django Thread-7 2357092 views views.py 25 django home 2350664 Logger warning
+INFO 2022-12-13 16:33:41,906 django.server Thread-7 2357092 basehttp basehttp.py 161 django.server log_message 2350664 "GET / HTTP/1.1" 200 4348
+WARNING 2022-12-13 16:33:41,982 django.request Thread-7 2357092 log log.py 230 django.request log_response 2350664 Not Found: /img/log.svg
+WARNING 2022-12-13 16:33:41,991 django.server Thread-7 2357092 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/log.svg HTTP/1.1" 404 2715
+INFO 2022-12-13 16:33:46,385 django Thread-7 2357092 views views.py 23 django home 2350664 Logger information
+CRITICAL 2022-12-13 16:33:46,386 django Thread-7 2357092 views views.py 24 django home 2350664 Logger critical
+WARNING 2022-12-13 16:33:46,389 django Thread-7 2357092 views views.py 25 django home 2350664 Logger warning
+INFO 2022-12-13 16:33:46,396 django.server Thread-7 2357092 basehttp basehttp.py 161 django.server log_message 2350664 "GET / HTTP/1.1" 200 4348
+WARNING 2022-12-13 16:33:46,504 django.request Thread-7 2357092 log log.py 230 django.request log_response 2350664 Not Found: /img/log.svg
+WARNING 2022-12-13 16:33:46,511 django.server Thread-7 2357092 basehttp basehttp.py 161 django.server log_message 2350664 "GET /img/log.svg HTTP/1.1" 404 2715
+INFO 2022-12-13 16:36:30,010 django.utils.autoreload MainThread 2344740 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2350664 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-13 16:36:34,451 django.utils.autoreload MainThread 2353396 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2357608 Watching for file changes with StatReloader
+INFO 2022-12-13 16:36:37,911 django.utils.autoreload MainThread 2353396 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2357608 C:\Users\sagarwal\Documents\app\core\core_app\send_mail.py changed, reloading.
+INFO 2022-12-13 16:36:42,953 django.utils.autoreload MainThread 2352468 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1464708 Watching for file changes with StatReloader
+INFO 2022-12-13 16:37:19,200 django Thread-1 2347836 views views.py 24 django home 1464708 Logger information
+CRITICAL 2022-12-13 16:37:19,206 django Thread-1 2347836 views views.py 25 django home 1464708 Logger critical
+WARNING 2022-12-13 16:37:19,208 django Thread-1 2347836 views views.py 26 django home 1464708 Logger warning
+INFO 2022-12-13 16:37:19,240 django.server Thread-1 2347836 basehttp basehttp.py 161 django.server log_message 1464708 "GET / HTTP/1.1" 200 4348
+WARNING 2022-12-13 16:37:19,392 django.request Thread-1 2347836 log log.py 230 django.request log_response 1464708 Not Found: /img/log.svg
+WARNING 2022-12-13 16:37:19,397 django.server Thread-1 2347836 basehttp basehttp.py 161 django.server log_message 1464708 "GET /img/log.svg HTTP/1.1" 404 2715
+INFO 2022-12-13 16:40:14,477 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-12-13 16:40:14,674 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO 2022-12-13 16:40:14,719 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:14,722 django.server Thread-5 2357320 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:14,730 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:14,744 django.server Thread-5 2357320 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:14,745 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:15,275 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-12-13 16:40:15,459 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO 2022-12-13 16:40:15,533 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:15,644 django.server Thread-5 2357320 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:15,647 django.server Thread-4 2346684 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:28,724 django.server Thread-9 2356644 basehttp basehttp.py 161 django.server log_message 1464708 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-12-13 16:40:28,821 django.server Thread-9 2356644 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/ HTTP/1.1" 200 6612
+INFO 2022-12-13 16:40:28,853 django.server Thread-9 2356644 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:28,882 django.server Thread-9 2356644 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:28,901 django.server Thread-10 2357292 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:28,902 django.server Thread-9 2356644 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:28,985 django.server Thread-10 2357292 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,699 django.server Thread-12 2355196 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/auth/user/ HTTP/1.1" 200 9187
+INFO 2022-12-13 16:40:31,808 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,815 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,823 django.server Thread-12 2355196 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,824 django.server Thread-13 71808 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,866 django.server Thread-12 2355196 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,870 django.server Thread-13 71808 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,883 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-13 16:40:31,908 django.server Thread-12 2355196 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,910 django.server Thread-13 71808 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:31,946 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:32,041 django.server Thread-13 71808 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:32,044 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:32,082 django.server Thread-13 71808 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:32,083 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:32,120 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,688 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/auth/user/5/change/ HTTP/1.1" 200 15849
+INFO 2022-12-13 16:40:35,783 django.server Thread-13 71808 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,787 django.server Thread-15 2359044 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,787 django.server Thread-17 2356496 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,797 django.server Thread-16 2353904 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,802 django.server Thread-12 2355196 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,823 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-13 16:40:35,854 django.server Thread-12 2355196 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,856 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:35,866 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:36,122 django.server Thread-14 2357536 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:36,137 django.server Thread-16 2353904 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:36,140 django.server Thread-12 2355196 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:36,141 django.server Thread-15 2359044 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:36,144 django.server Thread-13 71808 basehttp basehttp.py 161 django.server log_message 1464708 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2022-12-13 16:40:41,089 django.server Thread-18 2356736 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/core_app/savedata/ HTTP/1.1" 200 7935
+INFO 2022-12-13 16:40:41,134 django.server Thread-18 2356736 basehttp basehttp.py 161 django.server log_message 1464708 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-13 16:43:52,224 django.utils.autoreload MainThread 2356808 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2347204 Watching for file changes with StatReloader
+INFO 2022-12-13 16:44:02,736 django Thread-1 2356696 views views.py 24 django home 2347204 Logger information
+CRITICAL 2022-12-13 16:44:02,743 django Thread-1 2356696 views views.py 25 django home 2347204 Logger critical
+WARNING 2022-12-13 16:44:02,744 django Thread-1 2356696 views views.py 26 django home 2347204 Logger warning
+INFO 2022-12-13 16:44:02,781 django.server Thread-1 2356696 basehttp basehttp.py 161 django.server log_message 2347204 "GET / HTTP/1.1" 200 4348
+WARNING 2022-12-13 16:44:03,214 django.request Thread-1 2356696 log log.py 230 django.request log_response 2347204 Not Found: /img/log.svg
+WARNING 2022-12-13 16:44:03,221 django.server Thread-1 2356696 basehttp basehttp.py 161 django.server log_message 2347204 "GET /img/log.svg HTTP/1.1" 404 2715
+INFO 2022-12-13 16:44:22,326 django.utils.autoreload MainThread 2356808 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2347204 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-13 16:44:25,596 django.utils.autoreload MainThread 2330176 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2349036 Watching for file changes with StatReloader
+INFO 2022-12-13 16:47:28,306 django.utils.autoreload MainThread 2342376 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2355772 Watching for file changes with StatReloader
+INFO 2022-12-13 16:50:44,057 django.utils.autoreload MainThread 2342376 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2355772 C:\Users\sagarwal\Documents\app\core\core_app\send_mail.py changed, reloading.
+INFO 2022-12-13 16:50:47,598 django.utils.autoreload MainThread 2359756 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2359752 Watching for file changes with StatReloader
+INFO 2022-12-13 16:54:10,808 django.utils.autoreload MainThread 2357980 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2358760 Watching for file changes with StatReloader
+INFO 2022-12-13 16:57:20,393 django.utils.autoreload MainThread 2357980 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2358760 C:\Users\sagarwal\Documents\app\core\core_app\send_mail.py changed, reloading.
+INFO 2022-12-13 16:57:25,207 django.utils.autoreload MainThread 2359784 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2360856 Watching for file changes with StatReloader
+INFO 2022-12-13 16:58:03,644 django.utils.autoreload MainThread 2354344 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2315788 Watching for file changes with StatReloader
+INFO 2022-12-13 16:58:30,507 django.utils.autoreload MainThread 2359492 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2352348 Watching for file changes with StatReloader
+INFO 2022-12-13 16:58:31,484 django.server Thread-1 2352708 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/ HTTP/1.1" 200 6612
+INFO 2022-12-13 16:58:34,203 django.server Thread-1 2352708 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/auth/user/ HTTP/1.1" 200 9187
+INFO 2022-12-13 16:58:34,333 django.server Thread-1 2352708 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-13 16:58:41,070 django.server Thread-4 1887644 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/auth/user/30/change/ HTTP/1.1" 200 15884
+INFO 2022-12-13 16:58:41,135 django.server Thread-4 1887644 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-13 16:58:52,385 django.server Thread-7 2360668 basehttp basehttp.py 161 django.server log_message 2352348 "POST /admin/auth/user/30/change/ HTTP/1.1" 302 0
+INFO 2022-12-13 16:58:52,619 django.server Thread-7 2360668 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/auth/user/ HTTP/1.1" 200 9384
+INFO 2022-12-13 16:58:52,671 django.server Thread-7 2360668 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-13 16:59:11,301 django.server Thread-10 2360464 basehttp basehttp.py 161 django.server log_message 2352348 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2022-12-13 16:59:11,312 django Thread-10 2360464 views views.py 24 django home 2352348 Logger information
+CRITICAL 2022-12-13 16:59:11,313 django Thread-10 2360464 views views.py 25 django home 2352348 Logger critical
+WARNING 2022-12-13 16:59:11,315 django Thread-10 2360464 views views.py 26 django home 2352348 Logger warning
+INFO 2022-12-13 16:59:11,322 django.server Thread-10 2360464 basehttp basehttp.py 161 django.server log_message 2352348 "GET / HTTP/1.1" 200 4348
+WARNING 2022-12-13 16:59:11,434 django.request Thread-10 2360464 log log.py 230 django.request log_response 2352348 Not Found: /img/log.svg
+WARNING 2022-12-13 16:59:11,441 django.server Thread-10 2360464 basehttp basehttp.py 161 django.server log_message 2352348 "GET /img/log.svg HTTP/1.1" 404 2715
+INFO 2022-12-13 16:59:29,188 django.utils.autoreload MainThread 2359492 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2352348 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-13 16:59:37,990 django.utils.autoreload MainThread 2349036 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2336636 Watching for file changes with StatReloader
+INFO 2022-12-13 17:02:29,188 django.utils.autoreload MainThread 2349036 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2336636 C:\Users\sagarwal\Documents\app\core\core_app\send_mail.py changed, reloading.
+INFO 2022-12-13 17:02:31,674 django.utils.autoreload MainThread 2346312 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2356276 Watching for file changes with StatReloader
+INFO 2022-12-13 17:05:11,026 django.utils.autoreload MainThread 2155980 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2349928 Watching for file changes with StatReloader
+INFO 2022-12-13 17:07:01,650 django.utils.autoreload MainThread 2155980 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2349928 C:\Users\sagarwal\Documents\app\core\core_app\send_mail.py changed, reloading.
+INFO 2022-12-13 17:07:04,642 django.utils.autoreload MainThread 2361080 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2355456 Watching for file changes with StatReloader
+INFO 2022-12-13 17:07:39,881 django.utils.autoreload MainThread 2153264 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2155980 Watching for file changes with StatReloader
+INFO 2022-12-13 17:08:24,953 django.utils.autoreload MainThread 2153264 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2155980 C:\Users\sagarwal\Documents\app\core\core_app\send_mail.py changed, reloading.
+INFO 2022-12-13 17:08:31,360 django.utils.autoreload MainThread 2349928 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2347120 Watching for file changes with StatReloader
+INFO 2022-12-13 17:09:35,928 django.utils.autoreload MainThread 2358532 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2362564 Watching for file changes with StatReloader
+INFO 2022-12-13 17:15:39,656 django.utils.autoreload MainThread 2361908 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2137612 Watching for file changes with StatReloader
+INFO 2022-12-13 17:19:26,728 django.utils.autoreload MainThread 2353016 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2363560 Watching for file changes with StatReloader
+INFO 2022-12-13 17:24:16,975 django.utils.autoreload MainThread 2365280 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2365304 Watching for file changes with StatReloader
+INFO 2022-12-14 11:51:32,554 django.utils.autoreload MainThread 2501800 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1859620 Watching for file changes with StatReloader
+INFO 2022-12-14 12:00:17,713 django.utils.autoreload MainThread 2165360 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2283728 Watching for file changes with StatReloader
+INFO 2022-12-14 12:04:12,535 django.utils.autoreload MainThread 2505304 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2505300 Watching for file changes with StatReloader
+INFO 2022-12-14 12:04:19,767 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-12-14 12:04:19,982 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2214
+INFO 2022-12-14 12:04:20,020 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:20,038 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:20,053 django.server Thread-2 2504388 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:20,054 django.server Thread-3 2503428 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:20,054 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:20,060 django.server Thread-2 2504388 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:20,141 django.server Thread-2 2504388 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:20,147 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:24,701 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-12-14 12:04:24,776 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/ HTTP/1.1" 200 6636
+INFO 2022-12-14 12:04:24,799 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:24,816 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:24,817 django.server Thread-2 2504388 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:24,821 django.server Thread-3 2503428 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:24,850 django.server Thread-3 2503428 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:26,977 django.server Thread-3 2503428 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/auth/user/ HTTP/1.1" 200 9189
+INFO 2022-12-14 12:04:27,032 django.server Thread-3 2503428 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,065 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,066 django.server Thread-3 2503428 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,078 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,093 django.server Thread-4 2504420 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,095 django.server Thread-2 2504388 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-14 12:04:27,096 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,097 django.server Thread-3 2503428 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,110 django.server Thread-4 2504420 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,123 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,224 django.server Thread-1 2353960 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,225 django.server Thread-4 2504420 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,257 django.server Thread-4 2504420 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,324 django.server Thread-4 2504420 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:27,349 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,790 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/auth/user/5/change/ HTTP/1.1" 200 15849
+INFO 2022-12-14 12:04:30,843 django.server Thread-6 2505392 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,854 django.server Thread-6 2505392 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,854 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-14 12:04:30,868 django.server Thread-6 2505392 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/SelectBox.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,869 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,887 django.server Thread-6 2505392 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,903 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,932 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:30,950 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:31,075 django.server Thread-6 2505392 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:31,075 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:31,084 django.server Thread-6 2505392 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:31,092 django.server Thread-5 2505396 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:31,105 django.server Thread-6 2505392 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+INFO 2022-12-14 12:04:42,634 django.server Thread-11 2500840 basehttp basehttp.py 161 django.server log_message 2505300 "POST /admin/auth/user/5/change/ HTTP/1.1" 302 0
+INFO 2022-12-14 12:04:42,773 django.server Thread-11 2500840 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/auth/user/ HTTP/1.1" 200 9384
+INFO 2022-12-14 12:04:42,837 django.server Thread-11 2500840 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-14 12:04:47,263 django.server Thread-11 2500840 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 15900
+INFO 2022-12-14 12:04:47,299 django.server Thread-11 2500840 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-14 12:04:53,979 django.server Thread-14 2504776 basehttp basehttp.py 161 django.server log_message 2505300 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2022-12-14 12:04:54,136 django.server Thread-14 2504776 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/auth/user/ HTTP/1.1" 200 9385
+INFO 2022-12-14 12:04:54,207 django.server Thread-14 2504776 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/jsi18n/ HTTP/1.1" 200 3195
+INFO 2022-12-14 12:05:05,531 django.server Thread-17 2505588 basehttp basehttp.py 161 django.server log_message 2505300 "GET /admin/logout/ HTTP/1.1" 302 0
+INFO 2022-12-14 12:05:05,547 django Thread-17 2505588 views views.py 24 django home 2505300 Logger information
+CRITICAL 2022-12-14 12:05:05,548 django Thread-17 2505588 views views.py 25 django home 2505300 Logger critical
+WARNING 2022-12-14 12:05:05,548 django Thread-17 2505588 views views.py 26 django home 2505300 Logger warning
+INFO 2022-12-14 12:05:05,575 django.server Thread-17 2505588 basehttp basehttp.py 161 django.server log_message 2505300 "GET / HTTP/1.1" 200 4348
+INFO 2022-12-14 12:05:05,599 django.server Thread-17 2505588 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2022-12-14 12:05:05,604 django.server Thread-18 2505616 basehttp basehttp.py 161 django.server log_message 2505300 "GET /static/js/scripts.js HTTP/1.1" 304 0
+WARNING 2022-12-14 12:05:05,868 django.request Thread-18 2505616 log log.py 230 django.request log_response 2505300 Not Found: /img/log.svg
+WARNING 2022-12-14 12:05:05,875 django.server Thread-18 2505616 basehttp basehttp.py 161 django.server log_message 2505300 "GET /img/log.svg HTTP/1.1" 404 2715
+INFO 2022-12-14 12:10:44,071 django.utils.autoreload MainThread 2505248 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2505244 Watching for file changes with StatReloader
+INFO 2022-12-14 12:30:04,371 django.utils.autoreload MainThread 2505248 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2505244 C:\Users\sagarwal\Documents\app\core\core\settings.py changed, reloading.
+INFO 2022-12-14 12:30:07,307 django.utils.autoreload MainThread 333288 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 337212 Watching for file changes with StatReloader
+INFO 2022-12-14 12:30:26,774 django.utils.autoreload MainThread 333288 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 337212 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-14 12:30:29,672 django.utils.autoreload MainThread 345720 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 338952 Watching for file changes with StatReloader
+INFO 2022-12-14 12:35:18,407 django.utils.autoreload MainThread 345720 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 338952 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-14 12:35:22,309 django.utils.autoreload MainThread 447524 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 453000 Watching for file changes with StatReloader
+INFO 2022-12-14 12:44:20,020 django.utils.autoreload MainThread 643984 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 645248 Watching for file changes with StatReloader
+INFO 2022-12-15 12:34:40,165 django.utils.autoreload MainThread 1456860 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 859532 Watching for file changes with StatReloader
+INFO 2022-12-15 12:34:50,047 django Thread-1 1291760 views views.py 27 django home 859532 Logger information
+CRITICAL 2022-12-15 12:34:50,048 django Thread-1 1291760 views views.py 28 django home 859532 Logger critical
+WARNING 2022-12-15 12:34:50,049 django Thread-1 1291760 views views.py 29 django home 859532 Logger warning
+ERROR 2022-12-15 12:34:50,302 django.request Thread-1 1291760 log log.py 230 django.request log_response 859532 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 40, in home
+    msg = content_subtype('html')
+NameError: name 'content_subtype' is not defined
+ERROR 2022-12-15 12:34:50,313 django.server Thread-1 1291760 basehttp basehttp.py 161 django.server log_message 859532 "GET / HTTP/1.1" 500 72083
+INFO 2022-12-15 12:55:38,455 django.utils.autoreload MainThread 1456860 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 859532 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 12:55:41,195 django.utils.autoreload MainThread 2297736 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2508292 Watching for file changes with StatReloader
+INFO 2022-12-15 12:55:48,633 django Thread-2 512264 views views.py 27 django home 2508292 Logger information
+CRITICAL 2022-12-15 12:55:48,635 django Thread-2 512264 views views.py 28 django home 2508292 Logger critical
+WARNING 2022-12-15 12:55:48,638 django Thread-2 512264 views views.py 29 django home 2508292 Logger warning
+INFO 2022-12-15 12:55:50,883 django.server Thread-2 512264 basehttp basehttp.py 161 django.server log_message 2508292 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 12:55:50,933 django.server Thread-2 512264 basehttp basehttp.py 161 django.server log_message 2508292 "GET /static/css/styles.css HTTP/1.1" 304 0
+INFO 2022-12-15 12:55:50,951 django.server Thread-2 512264 basehttp basehttp.py 161 django.server log_message 2508292 "GET /static/js/scripts.js HTTP/1.1" 304 0
+INFO 2022-12-15 13:13:25,466 django Thread-4 1404932 views views.py 27 django home 2508292 Logger information
+CRITICAL 2022-12-15 13:13:25,469 django Thread-4 1404932 views views.py 28 django home 2508292 Logger critical
+WARNING 2022-12-15 13:13:25,470 django Thread-4 1404932 views views.py 29 django home 2508292 Logger warning
+INFO 2022-12-15 13:13:26,687 django.server Thread-4 1404932 basehttp basehttp.py 161 django.server log_message 2508292 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 13:20:35,384 django.utils.autoreload MainThread 1883824 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2447656 Watching for file changes with StatReloader
+INFO 2022-12-15 13:20:41,206 django Thread-1 579780 views views.py 27 django home 2447656 Logger information
+CRITICAL 2022-12-15 13:20:41,208 django Thread-1 579780 views views.py 28 django home 2447656 Logger critical
+WARNING 2022-12-15 13:20:41,208 django Thread-1 579780 views views.py 29 django home 2447656 Logger warning
+INFO 2022-12-15 13:20:42,411 django.server Thread-1 579780 basehttp basehttp.py 161 django.server log_message 2447656 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 13:22:19,201 django.utils.autoreload MainThread 1827364 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 313632 Watching for file changes with StatReloader
+INFO 2022-12-15 13:22:24,372 django Thread-1 805256 views views.py 27 django home 313632 Logger information
+CRITICAL 2022-12-15 13:22:24,377 django Thread-1 805256 views views.py 28 django home 313632 Logger critical
+WARNING 2022-12-15 13:22:24,379 django Thread-1 805256 views views.py 29 django home 313632 Logger warning
+INFO 2022-12-15 13:22:25,449 django.server Thread-1 805256 basehttp basehttp.py 161 django.server log_message 313632 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 13:23:48,499 django.utils.autoreload MainThread 834508 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2290664 Watching for file changes with StatReloader
+INFO 2022-12-15 13:23:49,819 django Thread-1 1674724 views views.py 27 django home 2290664 Logger information
+CRITICAL 2022-12-15 13:23:49,821 django Thread-1 1674724 views views.py 28 django home 2290664 Logger critical
+WARNING 2022-12-15 13:23:49,823 django Thread-1 1674724 views views.py 29 django home 2290664 Logger warning
+INFO 2022-12-15 13:23:50,979 django.server Thread-1 1674724 basehttp basehttp.py 161 django.server log_message 2290664 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 15:42:12,503 django.utils.autoreload MainThread 834508 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2290664 C:\Users\sagarwal\Documents\app\core\core\urls.py changed, reloading.
+INFO 2022-12-15 15:42:20,631 django.utils.autoreload MainThread 1655752 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1494280 Watching for file changes with StatReloader
+INFO 2022-12-15 15:48:13,976 django.utils.autoreload MainThread 1655752 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 1494280 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 15:48:15,932 django.utils.autoreload MainThread 2026756 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2508328 Watching for file changes with StatReloader
+INFO 2022-12-15 15:50:06,685 django.utils.autoreload MainThread 315416 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 647396 Watching for file changes with StatReloader
+INFO 2022-12-15 15:50:39,173 django Thread-1 674604 views views.py 33 django home 647396 Logger information
+CRITICAL 2022-12-15 15:50:39,221 django Thread-1 674604 views views.py 34 django home 647396 Logger critical
+WARNING 2022-12-15 15:50:39,224 django Thread-1 674604 views views.py 35 django home 647396 Logger warning
+ERROR 2022-12-15 15:50:39,466 django.request Thread-1 674604 log log.py 230 django.request log_response 647396 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 51, in home
+    template = get_template("testapp/email.html")
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: testapp/email.html
+ERROR 2022-12-15 15:50:39,479 django.server Thread-1 674604 basehttp basehttp.py 161 django.server log_message 647396 "GET / HTTP/1.1" 500 77105
+INFO 2022-12-15 15:51:06,406 django.utils.autoreload MainThread 315416 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 647396 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 15:51:10,154 django.utils.autoreload MainThread 402076 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2297116 Watching for file changes with StatReloader
+INFO 2022-12-15 15:51:15,868 django Thread-1 1034436 views views.py 33 django home 2297116 Logger information
+CRITICAL 2022-12-15 15:51:15,869 django Thread-1 1034436 views views.py 34 django home 2297116 Logger critical
+WARNING 2022-12-15 15:51:15,870 django Thread-1 1034436 views views.py 35 django home 2297116 Logger warning
+ERROR 2022-12-15 15:51:15,966 django.request Thread-1 1034436 log log.py 230 django.request log_response 2297116 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 56, in home
+    context_data["image_url"] = equest.build_absolute_uri(reverse("image_load"))
+NameError: name 'equest' is not defined
+ERROR 2022-12-15 15:51:15,975 django.server Thread-1 1034436 basehttp basehttp.py 161 django.server log_message 2297116 "GET / HTTP/1.1" 500 71213
+INFO 2022-12-15 15:51:54,747 django.utils.autoreload MainThread 402076 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2297116 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 15:51:56,881 django.utils.autoreload MainThread 564524 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1026772 Watching for file changes with StatReloader
+INFO 2022-12-15 15:52:05,731 django Thread-2 729132 views views.py 33 django home 1026772 Logger information
+CRITICAL 2022-12-15 15:52:05,732 django Thread-2 729132 views views.py 34 django home 1026772 Logger critical
+WARNING 2022-12-15 15:52:05,734 django Thread-2 729132 views views.py 35 django home 1026772 Logger warning
+ERROR 2022-12-15 15:52:05,837 django.request Thread-2 729132 log log.py 230 django.request log_response 1026772 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 56, in home
+    context_data["image_url"] = request.build_absolute_uri(reverse("image_load"))
+NameError: name 'reverse' is not defined
+ERROR 2022-12-15 15:52:05,845 django.server Thread-2 729132 basehttp basehttp.py 161 django.server log_message 1026772 "GET / HTTP/1.1" 500 71219
+INFO 2022-12-15 15:52:55,560 django.utils.autoreload MainThread 564524 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 1026772 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 15:52:58,263 django.utils.autoreload MainThread 913852 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 56036 Watching for file changes with StatReloader
+INFO 2022-12-15 15:53:06,465 django Thread-1 2059664 views views.py 35 django home 56036 Logger information
+CRITICAL 2022-12-15 15:53:06,467 django Thread-1 2059664 views views.py 36 django home 56036 Logger critical
+WARNING 2022-12-15 15:53:06,469 django Thread-1 2059664 views views.py 37 django home 56036 Logger warning
+ERROR 2022-12-15 15:53:06,569 django.request Thread-1 2059664 log log.py 230 django.request log_response 56036 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 60, in home
+    plain_text = strip_tags(html_text)
+NameError: name 'strip_tags' is not defined
+ERROR 2022-12-15 15:53:06,577 django.server Thread-1 2059664 basehttp basehttp.py 161 django.server log_message 56036 "GET / HTTP/1.1" 500 72341
+INFO 2022-12-15 15:54:14,249 django.utils.autoreload MainThread 913852 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 56036 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 15:54:18,895 django.utils.autoreload MainThread 1144292 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1477376 Watching for file changes with StatReloader
+INFO 2022-12-15 15:54:23,181 django.utils.autoreload MainThread 1144292 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 1477376 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 15:54:26,583 django.utils.autoreload MainThread 2077112 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1378148 Watching for file changes with StatReloader
+INFO 2022-12-15 15:54:27,695 django Thread-1 1258712 views views.py 34 django home 1378148 Logger information
+CRITICAL 2022-12-15 15:54:27,696 django Thread-1 1258712 views views.py 35 django home 1378148 Logger critical
+WARNING 2022-12-15 15:54:27,697 django Thread-1 1258712 views views.py 36 django home 1378148 Logger warning
+INFO 2022-12-15 15:54:27,770 django.server Thread-1 1258712 basehttp basehttp.py 161 django.server log_message 1378148 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 15:55:15,305 django.utils.autoreload MainThread 2077112 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 1378148 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 15:55:17,447 django.utils.autoreload MainThread 2507408 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 347480 Watching for file changes with StatReloader
+INFO 2022-12-15 16:14:45,541 django Thread-1 2468848 views views.py 34 django home 347480 Logger information
+CRITICAL 2022-12-15 16:14:45,544 django Thread-1 2468848 views views.py 35 django home 347480 Logger critical
+WARNING 2022-12-15 16:14:45,545 django Thread-1 2468848 views views.py 36 django home 347480 Logger warning
+ERROR 2022-12-15 16:14:45,695 django.request Thread-1 2468848 log log.py 230 django.request log_response 347480 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 60, in home
+    msg = EmailMessage(subject, html_content, from_email, to=['shubhimay18@gmail.com'])
+NameError: name 'html_content' is not defined
+ERROR 2022-12-15 16:14:45,707 django.server Thread-1 2468848 basehttp basehttp.py 161 django.server log_message 347480 "GET / HTTP/1.1" 500 72910
+INFO 2022-12-15 16:15:02,555 django.utils.autoreload MainThread 2507408 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 347480 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:15:05,659 django.utils.autoreload MainThread 2157536 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2267360 Watching for file changes with StatReloader
+INFO 2022-12-15 16:15:18,170 django Thread-1 1967072 views views.py 34 django home 2267360 Logger information
+CRITICAL 2022-12-15 16:15:18,172 django Thread-1 1967072 views views.py 35 django home 2267360 Logger critical
+WARNING 2022-12-15 16:15:18,174 django Thread-1 1967072 views views.py 36 django home 2267360 Logger warning
+INFO 2022-12-15 16:15:19,716 django.server Thread-1 1967072 basehttp basehttp.py 161 django.server log_message 2267360 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:16:07,186 django.utils.autoreload MainThread 2157536 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2267360 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:16:09,490 django.utils.autoreload MainThread 1997108 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2267792 Watching for file changes with StatReloader
+INFO 2022-12-15 16:16:12,537 django Thread-1 410328 views views.py 34 django home 2267792 Logger information
+CRITICAL 2022-12-15 16:16:12,538 django Thread-1 410328 views views.py 35 django home 2267792 Logger critical
+WARNING 2022-12-15 16:16:12,539 django Thread-1 410328 views views.py 36 django home 2267792 Logger warning
+INFO 2022-12-15 16:16:13,597 django.server Thread-1 410328 basehttp basehttp.py 161 django.server log_message 2267792 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:16:58,544 django Thread-4 1640416 views views.py 34 django home 2267792 Logger information
+CRITICAL 2022-12-15 16:16:58,547 django Thread-4 1640416 views views.py 35 django home 2267792 Logger critical
+WARNING 2022-12-15 16:16:58,547 django Thread-4 1640416 views views.py 36 django home 2267792 Logger warning
+INFO 2022-12-15 16:16:59,607 django.server Thread-4 1640416 basehttp basehttp.py 161 django.server log_message 2267792 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:19:36,594 django.utils.autoreload MainThread 1997108 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2267792 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:19:39,278 django.utils.autoreload MainThread 325312 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 956712 Watching for file changes with StatReloader
+INFO 2022-12-15 16:19:45,569 django Thread-1 2499620 views views.py 34 django home 956712 Logger information
+CRITICAL 2022-12-15 16:19:45,570 django Thread-1 2499620 views views.py 35 django home 956712 Logger critical
+WARNING 2022-12-15 16:19:45,571 django Thread-1 2499620 views views.py 36 django home 956712 Logger warning
+INFO 2022-12-15 16:19:46,581 django.server Thread-1 2499620 basehttp basehttp.py 161 django.server log_message 956712 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:20:44,689 django.utils.autoreload MainThread 2094768 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1729800 Watching for file changes with StatReloader
+INFO 2022-12-15 16:20:46,277 django Thread-1 89584 views views.py 34 django home 1729800 Logger information
+CRITICAL 2022-12-15 16:20:46,278 django Thread-1 89584 views views.py 35 django home 1729800 Logger critical
+WARNING 2022-12-15 16:20:46,281 django Thread-1 89584 views views.py 36 django home 1729800 Logger warning
+INFO 2022-12-15 16:20:47,399 django.server Thread-1 89584 basehttp basehttp.py 161 django.server log_message 1729800 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:21:05,120 django Thread-1 89584 views views.py 34 django home 1729800 Logger information
+CRITICAL 2022-12-15 16:21:05,123 django Thread-1 89584 views views.py 35 django home 1729800 Logger critical
+WARNING 2022-12-15 16:21:05,124 django Thread-1 89584 views views.py 36 django home 1729800 Logger warning
+INFO 2022-12-15 16:21:06,240 django.server Thread-1 89584 basehttp basehttp.py 161 django.server log_message 1729800 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:22:12,637 django.utils.autoreload MainThread 2094768 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 1729800 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:22:15,390 django.utils.autoreload MainThread 1449776 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2494860 Watching for file changes with StatReloader
+INFO 2022-12-15 16:22:29,153 django Thread-1 636516 views views.py 34 django home 2494860 Logger information
+CRITICAL 2022-12-15 16:22:29,154 django Thread-1 636516 views views.py 35 django home 2494860 Logger critical
+WARNING 2022-12-15 16:22:29,156 django Thread-1 636516 views views.py 36 django home 2494860 Logger warning
+INFO 2022-12-15 16:22:30,394 django.server Thread-1 636516 basehttp basehttp.py 161 django.server log_message 2494860 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:23:38,258 django.utils.autoreload MainThread 1449776 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2494860 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:23:40,827 django.utils.autoreload MainThread 2503296 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 387948 Watching for file changes with StatReloader
+INFO 2022-12-15 16:23:46,868 django Thread-1 1652960 views views.py 34 django home 387948 Logger information
+CRITICAL 2022-12-15 16:23:46,870 django Thread-1 1652960 views views.py 35 django home 387948 Logger critical
+WARNING 2022-12-15 16:23:46,871 django Thread-1 1652960 views views.py 36 django home 387948 Logger warning
+ERROR 2022-12-15 16:23:47,326 django.request Thread-1 1652960 log log.py 230 django.request log_response 387948 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\sagarwal\Documents\app\core\core_app\views.py", line 63, in home
+    msg.send()
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 109, in send_messages
+    sent = self._send(message)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 123, in _send
+    message = email_message.message()
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 246, in message
+    msg = SafeMIMEText(self.body, self.content_subtype, encoding)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 159, in __init__
+    MIMEText.__init__(self, _text, _subtype=_subtype, _charset=_charset)
+  File "c:\users\sagarwal\appdata\local\programs\python\python37\lib\email\mime\text.py", line 42, in __init__
+    self.set_payload(_text, _charset)
+  File "C:\Users\sagarwal\Documents\app\venv\lib\site-packages\django\core\mail\message.py", line 169, in set_payload
+    for line in payload.splitlines()
+AttributeError: 'Template' object has no attribute 'splitlines'
+ERROR 2022-12-15 16:23:47,344 django.server Thread-1 1652960 basehttp basehttp.py 161 django.server log_message 387948 "GET / HTTP/1.1" 500 100972
+INFO 2022-12-15 16:25:44,697 django.utils.autoreload MainThread 2503296 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 387948 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:25:46,663 django.utils.autoreload MainThread 668700 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 2139912 Watching for file changes with StatReloader
+INFO 2022-12-15 16:26:56,025 django.utils.autoreload MainThread 668700 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 2139912 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:26:58,120 django.utils.autoreload MainThread 1898788 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 710328 Watching for file changes with StatReloader
+INFO 2022-12-15 16:27:50,441 django.utils.autoreload MainThread 1898788 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 710328 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:27:52,417 django.utils.autoreload MainThread 661440 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 1117728 Watching for file changes with StatReloader
+INFO 2022-12-15 16:28:05,240 django.utils.autoreload MainThread 661440 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 1117728 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:28:07,223 django.utils.autoreload MainThread 385252 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 363688 Watching for file changes with StatReloader
+INFO 2022-12-15 16:28:16,622 django Thread-1 1278000 views views.py 34 django home 363688 Logger information
+CRITICAL 2022-12-15 16:28:16,624 django Thread-1 1278000 views views.py 35 django home 363688 Logger critical
+WARNING 2022-12-15 16:28:16,625 django Thread-1 1278000 views views.py 36 django home 363688 Logger warning
+INFO 2022-12-15 16:28:17,703 django.server Thread-1 1278000 basehttp basehttp.py 161 django.server log_message 363688 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:28:44,968 django.utils.autoreload MainThread 385252 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 363688 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:28:47,266 django.utils.autoreload MainThread 1140800 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 831076 Watching for file changes with StatReloader
+INFO 2022-12-15 16:29:11,627 django Thread-1 1396220 views views.py 34 django home 831076 Logger information
+CRITICAL 2022-12-15 16:29:11,628 django Thread-1 1396220 views views.py 35 django home 831076 Logger critical
+WARNING 2022-12-15 16:29:11,629 django Thread-1 1396220 views views.py 36 django home 831076 Logger warning
+INFO 2022-12-15 16:29:12,653 django.server Thread-1 1396220 basehttp basehttp.py 161 django.server log_message 831076 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:46:55,386 django.utils.autoreload MainThread 2359436 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 593152 Watching for file changes with StatReloader
+INFO 2022-12-15 16:47:20,944 django Thread-1 460416 views views.py 34 django home 593152 Logger information
+CRITICAL 2022-12-15 16:47:20,945 django Thread-1 460416 views views.py 35 django home 593152 Logger critical
+WARNING 2022-12-15 16:47:20,946 django Thread-1 460416 views views.py 36 django home 593152 Logger warning
+INFO 2022-12-15 16:47:22,615 django.server Thread-1 460416 basehttp basehttp.py 161 django.server log_message 593152 "GET / HTTP/1.1" 200 4357
+INFO 2022-12-15 16:49:45,923 django.server Thread-4 55640 basehttp basehttp.py 161 django.server log_message 593152 "GET /%5Eimage_load/$ HTTP/1.1" 200 69
+INFO 2022-12-15 16:49:59,503 django.server Thread-7 2499776 basehttp basehttp.py 161 django.server log_message 593152 "GET /%5Eimage_load/$ HTTP/1.1" 200 69
+INFO 2022-12-15 16:51:51,078 django.utils.autoreload MainThread 2359436 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 593152 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:51:53,100 django.utils.autoreload MainThread 579856 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 587492 Watching for file changes with StatReloader
+INFO 2022-12-15 16:52:28,268 django.utils.autoreload MainThread 579856 autoreload autoreload.py 251 django.utils.autoreload trigger_reload 587492 C:\Users\sagarwal\Documents\app\core\core_app\views.py changed, reloading.
+INFO 2022-12-15 16:52:37,065 django.utils.autoreload MainThread 132448 autoreload autoreload.py 637 django.utils.autoreload run_with_reloader 204376 Watching for file changes with StatReloader
+INFO 2022-12-15 16:56:24,030 django.server Thread-1 716524 basehttp basehttp.py 161 django.server log_message 204376 "GET /%5Eimage_load/$ HTTP/1.1" 200 69
+INFO 2022-12-15 16:56:35,307 django Thread-1 716524 views views.py 34 django home 204376 Logger information
+CRITICAL 2022-12-15 16:56:35,308 django Thread-1 716524 views views.py 35 django home 204376 Logger critical
+WARNING 2022-12-15 16:56:35,311 django Thread-1 716524 views views.py 36 django home 204376 Logger warning
+INFO 2022-12-15 16:56:36,747 django.server Thread-1 716524 basehttp basehttp.py 161 django.server log_message 204376 "GET / HTTP/1.1" 200 4357
